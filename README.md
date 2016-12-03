@@ -27,8 +27,18 @@ The application is accepted if:
 ### Explain the algorithm used in exercise 2. Use a flowchart, structogram or pseudo code. [2p]
 #### Your answer:
 
+count_a equals 0
+Loop through the characters of a filename:
+ if the character equals 'a':
+   increment count_a with 1
+ when the loop ends return count_a
+ 
 ### How can you get a random number in python? [2p]
 #### Your answer:
 
+You can get random number using the 'random' module. The most simple functions are 'randrange' and 'randint'.
+
 ### What does M stand for in MVC? [2p]
 #### Your answer:
+
+M stands for 'model'. The 'model' manages the data structure, the logic, and the rules of the program.
